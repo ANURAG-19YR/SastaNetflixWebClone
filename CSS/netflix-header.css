@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* margin-right: 0px; */
+}
+
+#bg-img {
+    /* background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 2, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('../IMAGES/netflix-bg.jpg'); */
+    background-image: url('../IMAGES/netflix-bg.jpg');
+    height: 800px;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 73% 27%;
+}
+
+.logo {
+    width: 174px;
+    height: 66px;
+    margin: 31px;
+    margin-left: 81px;
+    margin-top: 42px;
+}
+
+.btn {
+    margin-top: 3px;
+    /* margin-right: 40px; */
+}
+
+.world {
+    width:14px;
+    height: 16px;
+    margin-right: 5px;
+    filter: invert();
+    border-radius: 8px;
+
+}
+.drop{
+    width:20px;
+    height: 16px;
+    margin-left: 2px;
+}
+.english {
+    border: 1px solid #5f5e5e;
+    background-color: #191919;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 10px;
+    margin-top: 52px;
+}
+.english:hover{
+    cursor: pointer;
+}
+.sign {
+    border: 1px solid #f60909;
+    background-color: #e40813;
+    color: rgb(255, 245, 245);
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+}
+.sign:hover{
+    cursor: pointer;
+    background-color: rgb(175, 0, 0);
+}
+
+.bg {
+    /* display: inline; */
+    color: rgb(255, 250, 250);
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 17%;
+}
+
+.unlimited {
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: bolder;
+    text-shadow: #191919;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.anywhere {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15px;
+}
+
+.email {
+
+    padding: 15px 172px 15px 15px;
+    background-color: #191919;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid #5f5e5e;
+
+
+}
+
+placeholder {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.getStarted {
+    border: 1px solid #e40813;
+    background-color: #e40813;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid #e90909;
+    margin-left: 8px;
+}
+.getStarted:hover{
+    cursor: pointer;
+    background-color: rgb(193, 6, 6);
+}
