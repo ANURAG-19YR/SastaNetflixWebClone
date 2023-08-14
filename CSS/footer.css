@@ -32,6 +32,10 @@ footer{
 .footer-container-items li{
     cursor: pointer;
 }
+.footer-container-items li:hover{
+    color: white;
+
+}
 .footer-btn{
     padding: 18px 0px 100px 264px;
     
