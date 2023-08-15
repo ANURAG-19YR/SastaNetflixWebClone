@@ -7,9 +7,9 @@
 }
 
 #bg-img {
-    /* background-image:
-    linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 2, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('../IMAGES/netflix-bg.jpg'); */
-    background-image: url('../IMAGES/netflix-bg.jpg');
+    background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 2, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('../IMAGES/netflix-bg.jpg'); 
+    /*background-image: url('../IMAGES/netflix-bg.jpg');*/
     height: 800px;
     width: 100%;
     position: relative;
